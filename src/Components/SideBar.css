@@ -1,0 +1,58 @@
+.logo{
+    /* vertical-align: middle; */
+    /* padding: 10px 0px 0px; */
+    /* padding-bottom: 100px; */
+    /* overflow: auto; */
+    /* padding-bottom: 50px; */
+    position: absolute;
+    top: 100px;
+    width: 125px;
+    height: 125px;
+}
+
+.sidenav{
+    height: 100%;
+    width: 200px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: #A7A1D6;
+    overflow-x: hidden;
+    padding-top: 250px;
+    padding-left: 60px;
+}
+  
+.sidenav a{
+    text-align: center;
+    padding:  15px 90px 15px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+}
+  
+.sidenav a:hover{
+    color: rgb(56, 54, 54);
+}
+  
+.sidenav small{
+    position: fixed;
+    color: white;
+    top: 612px;
+    text-indent: 0px;
+    /* right: 800px; */
+    text-align: left;
+    padding-left: 6em;
+}
+  
+.sidenav p{
+    position: absolute;
+    color: white;
+    text-align: left;
+    top: 600px;
+    left: 20px;
+    /* padding-bottom: 10px; */
+    text-indent: 0px;
+    font-size: 13px;
+}

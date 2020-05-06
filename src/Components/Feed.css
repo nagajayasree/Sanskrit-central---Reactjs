@@ -1,0 +1,138 @@
+/* .feed-post{
+    position: fixed;
+    position: absolute;
+    text-align: center;
+    background: #EAEAEA;
+    left: 290px;
+    right: 400px; 
+    top: 170px;
+    padding: 15px;
+    display: block;
+}
+
+.feed-title{
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+  
+.feed-title:hover{
+    cursor: pointer;
+}
+  
+.feed-title-button{
+    border: none;
+    display: inline-block;
+    background: none;
+    background: #EAEAEA;
+    padding: none;
+    position: absolute;
+    left: 110px;
+    font-size: 30px;
+    font-family: inherit;
+    bottom: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.feed-desc{
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 15px;
+    position: absolute;
+    bottom: 0px;
+}
+  
+.img-thumbnail{
+    height: 80px;
+    width: 80px;
+    float : left;
+} */
+
+.article{
+    background: #EAEAEA;
+    position: absolute;
+    left: 290px;
+    top: 170px;
+    padding: 20px;
+    width: 635px;
+    height: 65px;
+}
+
+.today{
+    position: absolute;
+    top: -65px;
+    left: 15px;
+    opacity: 40%;
+}
+
+.tit{
+    position: relative;
+    left: 95px;
+    bottom: 5px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.des{
+    position: relative;
+    left: 95px;
+    bottom: 20px;
+    font-size: 15px;
+    display: block;
+}
+
+.pic-thumbnail{
+    position: relative;
+    bottom: 145px;
+    left: -3pt;
+    top: -100px;
+    height: 80px;
+    width: 80px;
+    float : left;
+}
+
+.article-2{
+    background: #EAEAEA;
+    position: absolute;
+    left: 290px;
+    top: 350px;
+    padding: 20px;
+    width: 635px;
+    height: 65px;
+}
+
+.yesterday{
+    position: absolute;
+    top: -65px;
+    left: 15px;
+    opacity: 40%;
+}
+
+.tit-2{
+    position: relative;
+    left: 95px;
+    bottom: 3px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.des-2{
+    position: relative;
+    left: 95px;
+    bottom: 20px;
+    font-size: 15px;
+    display: block;
+}
+
+.pic-thumbnail-2{
+    position: relative;
+    bottom: 145px;
+    left: -3pt;
+    top: -100px;
+    height: 80px;
+    width: 80px;
+    float : left;
+}

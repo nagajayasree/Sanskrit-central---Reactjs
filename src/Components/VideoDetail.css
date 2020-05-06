@@ -1,0 +1,84 @@
+.next{
+  position: absolute;
+  top: 140px;
+  left: 1005px;
+  font-size: 25px;
+  opacity: 40%;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 8px 8px 15px 5px;
+  background-color:#FFFFFF;
+  cursor: pointer;
+}
+
+.column {
+  position: absolute;
+  top: 225px;
+  left: 1000px;
+  width: 17%;
+  padding: 10px 8px 10px 8px;
+}
+  
+.video{
+  display: block;
+  border: none;
+  position: relative;
+  height: 90px;
+  width: 80px;
+  bottom: 8px;
+  left: -5px;
+}
+  
+.vtitle{
+  float: left;
+  padding-top: 18px;
+  padding-left: 10px;
+}
+  
+.vtitle2{
+  float: left;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+  
+.vdescp{
+  display: block;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+  
+.vdescp2{
+  display: block;
+  position: absolute;
+  top: 205px;
+  padding-left: 10px;
+  display: inline-flexbox;
+}
+  
+.arrangevideo{
+  position: absolute;
+  top: 160px;
+  left: 300px; 
+}
+
+.Vtitle{
+  position: relative;
+  top: 5px;
+}
+
+.Vtitle2{
+  position: relative;
+  top: -10px;
+}
+
+.Vdesc{
+  position: relative;
+  padding: 10px;
+  width: 650px;
+  text-align: justify;
+  top: -20px;
+  padding-left: 1px;
+}

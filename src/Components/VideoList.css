@@ -1,0 +1,125 @@
+.day1{
+    position: absolute;
+    left: 305px;
+    top: 100px;
+    font-size: 25px;
+    opacity: 40%;
+}
+
+.vlcard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px 8px 15px 5px;
+    background-color:#FFFFFF;
+    cursor: pointer;
+}
+
+.vlcolumn {
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    width: 17%;
+    padding: 10px 8px 10px 8px;
+}
+
+.videolist{
+    display: block;
+    border: none;
+    position: relative;
+    height: 90px;
+    width: 80px;
+    bottom: 8px;
+    left: -5px;
+}
+
+.vlisttitle{
+    float: left;
+    padding-top: 35px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
+.vlisttitle2{
+    float: left;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+ 
+.vlistdescp{
+    display: block;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.vlistdescp2{
+    display: block;
+    position: absolute;
+    top: 205px;
+    padding-left: 10px;
+    display: inline-flexbox;
+}
+
+.day2{
+    position: absolute;
+    left: 305px;
+    top: 430px;
+    font-size: 25px;
+    opacity: 40%;
+}
+
+.vlcard-2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 8px 8px 15px 5px;
+    background-color:#FFFFFF;
+    cursor: pointer;
+}
+
+.vlcolumn-2{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    width: 17%;
+    padding: 10px 8px 10px 8px;
+}
+
+.videolist-2{
+    display: block;
+    border: none;
+    position: relative;
+    height: 90px;
+    width: 80px;
+    bottom: 8px;
+    left: -5px;
+}
+
+.vlisttitle-2{
+    float: left;
+    padding-top: 40px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
+.vlisttitle2-2{
+    float: left;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 40px;
+    align-content: ;
+}
+ 
+.vlistdescp-2{
+    display: block;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.vlistdescp2-2{
+    display: block;
+    position: absolute;
+    top: 205px;
+    padding-left: 10px;
+}

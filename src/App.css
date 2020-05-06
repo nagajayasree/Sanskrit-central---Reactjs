@@ -1,0 +1,182 @@
+.logo{
+  /* vertical-align: middle; */
+  /* padding: 10px 0px 0px; */
+  /* padding-bottom: 100px; */
+  /* overflow: auto; */
+  /* padding-bottom: 50px; */
+  position: absolute;
+  top: 100px;
+  width: 125px;
+  height: 125px;
+}
+
+/* div::before{
+  content: 'Today';
+  position: relative;
+  bottom: 120px;
+  text-indent: 18em;
+  top: 130px;
+  font-weight: normal;
+  opacity: 40%;
+  position: fixed;
+} */
+
+.sidenav{
+  height: 100%;
+  width: 200px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  position: fixed;
+  background-color: #A7A1D6;
+  overflow-x: hidden;
+  padding-top: 250px;
+  padding-left: 60px;
+}
+
+.sidenav a{
+  text-align: center;
+  padding:  15px 90px 15px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover{
+  color: rgb(56, 54, 54);
+}
+
+.sidenav small{
+  position: fixed;
+  color: white;
+  top: 612px;
+  text-indent: 0px;
+  /* right: 800px; */
+  text-align: left;
+  padding-left: 6em;
+}
+
+.sidenav p{
+  position: absolute;
+  color: white;
+  text-align: left;
+  top: 600px;
+  left: 20px;
+  /* padding-bottom: 10px; */
+  text-indent: 0px;
+  font-size: 13px;
+}
+
+.post{
+  position: fixed;
+  text-align: center;
+  position: absolute;
+  background: #EAEAEA;
+  left: 290px;
+  right: 400px; 
+  top: 170px;
+  padding: 15px;
+  display: block;
+}
+
+.title{
+  text-align: left;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+
+.title-button{
+  border: none;
+  display: inline-block;
+  background: none;
+  /* background: #EAEAEA; */
+  padding: none;
+  position: absolute;
+  left: 110px;
+  font-size: 30px;
+  font-family: inherit;
+  bottom: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.desc{
+  text-align: left;
+  padding-left: 100px;
+  padding-bottom: 15px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.thumbnail{
+  height: 80px;
+  width: 80px;
+  float : left;
+  cursor: pointer;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 8px 8px 15px 5px;
+  background-color:#FFFFFF;
+  cursor: pointer;
+}
+
+.column {
+  position: absolute;
+  top: 160px;
+  left: 300px;
+  width: 17%;
+  padding: 10px 8px 10px 8px;
+}
+
+
+.video{
+  display: block;
+  border: none;
+  position: relative;
+  height: 90px;
+  width: 80px;
+  bottom: 8px;
+  left: -5px;
+}
+
+.vtitle{
+  float: left;
+  padding-top: 18px;
+  padding-left: 10px;
+}
+
+.vtitle2{
+  float: left;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+.vdescp{
+  display: block;
+  padding-top: 80px;
+  padding-left: 10px;
+}
+
+.vdescp2{
+  display: block;
+  position: absolute;
+  top: 205px;
+  padding-left: 10px;
+  display: inline-flexbox;
+}
+
+.arrangevideo{
+  position: absolute;
+  top: 100px;
+  left: 300px; 
+}
