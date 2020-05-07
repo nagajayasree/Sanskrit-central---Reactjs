@@ -1,0 +1,43 @@
+.list{
+    position: relative;
+    top: 140px;
+}
+
+.item{
+    background-color: #EAEAEA;
+    background-attachment: fixed;
+    background-position: relative;
+    padding-bottom: 6px;
+    margin-top: 40px;
+    margin-right: 450px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    padding-left: 100px;
+    display: block;
+}
+
+#title{
+    position: relative;
+    top: 20px;
+}
+
+#description{
+    position: relative;
+    top: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link,q:active,q:visited{
+    cursor: pointer;
+}
+
+.pic{
+    position: relative;
+    float: left;
+    padding-top: 59px;
+    padding-bottom: 10px;
+    padding-left: 320px;
+}
