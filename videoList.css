@@ -1,0 +1,40 @@
+.column{
+    padding: 10px;
+    float: left;
+    display: block;
+}
+
+.item{
+    width: 25px;
+    position: relative;
+    padding-left: 300px;
+    padding-top: 170px;
+}
+
+.videocard{
+    transition: 0.2s;
+    width: 264px;
+    height: 327px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 24px #00000029;
+    opacity: 1;
+}
+
+.vtitle{
+    text-align: left;
+    font: Medium 18px/23px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 20px;
+}
+
+.vdes{
+    text-align: left;
+    font: Medium 18px/23px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    padding-left: 20px;
+}
+
