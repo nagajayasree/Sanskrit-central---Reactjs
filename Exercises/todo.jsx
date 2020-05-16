@@ -1,6 +1,8 @@
 import React from 'react';
 
 const useState = React.useState
+const useEffect = React.useEffect
+
 
 function TodoApp(){
     const [todos,setTodos] = useState([
@@ -8,11 +10,22 @@ function TodoApp(){
         {task:"buy veggies"},
         {task:"play tennis"},
     ])
+    
+    useEffect(()=>{
+        if(localStorage.getItem('TodoData')){
+            setTodos(JSON.parse(localStorage.getItem('TodoData')))
+        }
+    },[])
+
+    useEffect(()=>{
+        localStorage.setItem('TodoData',JSON.stringify(todos))
+    },[todos])
+    
     return(
         <>
         <TodoForm setTodos = {setTodos}/>
         <ul>
-            {todos.map(todo=> <Todo task={todo.task}/>)}
+            {todos.map(todo=> <Todo setTodos = {setTodos} key={todo.task} task={todo.task}/>)}
         </ul>
         </>
     )
@@ -38,7 +51,12 @@ function TodoForm(props){
 }
 
 function Todo(props){
-return <li>{props.task}</li>
+    function DeleteTask(){
+        props.setTodos(prev=>prev.filter(todo=>props.task != todo.task))
+    }
+return <li>{props.task}
+<button onClick={DeleteTask}>Delete</button>
+</li>
 }
 
 export default TodoApp;
