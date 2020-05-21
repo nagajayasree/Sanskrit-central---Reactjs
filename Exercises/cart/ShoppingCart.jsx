@@ -12,11 +12,20 @@ class ShoppingCart extends Component {
     ],
   };
 
+  handleDelete = (itemid) => {
+    const items = this.state.items.filter((i) => i.id !== itemid);
+    this.setState({ items });
+  };
+
   render() {
     return (
       <div>
         {this.state.items.map((item) => (
-          <Counter key={item.id} value = {item.value} product={item.product} />
+          <Counter key={item.id} value = {item.value} product={item.product} id={item.id} instock={item.instock}>
+            <h5>
+              Product: {item.product},Stock: {item.instock}
+            </h5>
+          </Counter>
         ))}
       </div>
     );
