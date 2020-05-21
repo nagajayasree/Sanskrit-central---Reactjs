@@ -15,13 +15,10 @@ class Counter extends Component {
     }
   };
 
-  handleDelete = (id) => {
-    console.log(id);
-  };
-
   render() {
     return (
       <div>
+        {this.props.children}
         <span style={{ fontSize: 15 }} className={this.getBadgeClasses()}>
         {this.formatCount()}
         </span>
@@ -31,7 +28,7 @@ class Counter extends Component {
         <button onClick={() => this.handleDecrement()} className="btn btn-secondary m-2 btn-sm">
           Decrement
         </button>
-        <button onClick={() => this.handleDelete({ id: 1 })} className="btn btn-danger m-2 btn-sm">
+        <button onClick={() => this.props.onDelete(this.props.id)} className="btn btn-danger m-2 btn-sm">
           Delete
         </button>
       </div>
