@@ -12,6 +12,22 @@ class ShoppingCart extends Component {
     ],
   };
 
+handleIncrement = (item) => {
+    const items = [...this.state.items];
+    const index = items.indexOf(item);
+    items[index] = { ...item };
+    items[index].value++;
+    this.setState({ items });
+  };
+
+  handleReset = () => {
+    const items = this.state.items.map((i) => {
+      i.value = 0;
+      return i;
+    });
+    this.setState({ items });
+  };
+
   handleDelete = (itemid) => {
     const items = this.state.items.filter((i) => i.id !== itemid);
     this.setState({ items });
@@ -20,8 +36,11 @@ class ShoppingCart extends Component {
   render() {
     return (
       <div>
+        <button onClick={this.handleReset} className="btn btn-primary m-4 btn-sm">
+          Reset
+        </button>
         {this.state.items.map((item) => (
-          <Counter key={item.id} value = {item.value} product={item.product} id={item.id} instock={item.instock}>
+          <Counter key={item.id} onDelete={this.handelDelete} onIncrement={this.handleIncrement} item={item}>
             <h5>
               Product: {item.product},Stock: {item.instock}
             </h5>
