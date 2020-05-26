@@ -6,13 +6,9 @@ import getNumbers from "./numbers";
 class Calculator extends Component {
   state = {
     numbers: getNumbers(),
-    showElements: 3,
   };
   render() {
-    const elements = this.state.numbers
-      .slice("0", "this.state.showElements")
-      .map((number) => <div>{number}</div>);
-    return (
+        return (
       <div className="calculator" style={{ padding: 50 }}>
         <div className="calculator-screen">
           <input
@@ -23,28 +19,28 @@ class Calculator extends Component {
           />
         </div>
         <div>
-          {this.state.numbers.slice(0, this.state.showElements).map((n) => (
+          {this.state.numbers.slice(0,3).map((n) => (
             <button className="btn btn-secondary m-2" key={n.id}>
               {n.value}
             </button>
           ))}
         </div>
         <div>
-          {this.state.numbers.slice(3, this.state.showElements+4).map((n) => (
+          {this.state.numbers.slice(3,7).map((n) => (
             <button className="btn btn-secondary m-2" key={n.id}>
               {n.value}
             </button>
           ))}
         </div>
         <div>
-          {this.state.numbers.slice(7, this.state.showElements+8).map((n) => (
+          {this.state.numbers.slice(7,11).map((n) => (
             <button className="btn btn-secondary m-2" key={n.id}>
               {n.value}
             </button>
           ))}
         </div>
         <div>
-          {this.state.numbers.slice(11, this.state.showElements+12).map((n) => (
+          {this.state.numbers.slice(11,15).map((n) => (
             <button className="btn btn-secondary m-2" key={n.id}>
               {n.value}
             </button>
