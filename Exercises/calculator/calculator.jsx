@@ -1,3 +1,5 @@
+//Rendering button values using slice and map methods
+
 import React, { Component } from "react";
 import getNumbers from "./numbers";
 
